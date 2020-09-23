@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background:"rock background image.jpeg" no-repeat center fixed;
+	background-size:cover;
+}
+
+h1 {color:black;
+font-family:"CF Punk Posters PERSONAL";
+font-weight:100;
+font-size:75px;
+text-align:center;
+background-color:#FFFFFF;
+margin:auto;
+max-width:800px;
+padding-top:10px;
+}
+
+ul {list-style-type:none;
+	max-width: 800px;
+	margin:auto;
+	padding:0;
+	overflow:inherit;
+	background-color:#FFFFFF;
+	width:100%;
+	display:flex;
+	justify-content: space-evenly;}
+
+li{
+	float:left;
+}
+
+li a {
+  text-align:left;
+  padding:10px;
+  text-decoration: none;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 20px;
+	margin:auto;
+	float:left;
+	width:auto;
+	background-color: #FFFFFF;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+a:link {color:black;} a:visited {color:black;} a:hover {color:white;} a:active {color:grey;}
+	
+h2 {background-color:#FFFFFF;
+display:block;
+max-width:800px;
+margin:auto;
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+font-size:20px}
+
+h3 {background-color:#FFFFFF;
+	font-family:"CF Punk Posters PERSONAL";
+display:block;
+max-width:800px;
+margin:auto;
+text-align: center;
+font-size:40px;
+padding-top:10px;
+}
+
+h4 {background-color:#FFFFFF;
+font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+display:block;
+margin-top:auto;
+margin-bottom:auto;
+text-align:center;
+font-size:25px;
+padding:10px;
+max-width:100%;
+}
+
+h5 {background-color:#ffffff;
+font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+font-size:20px;
+display:block;
+	margin:auto;
+padding-top:10px;
+	padding-bottom:10px;
+	padding-left:0px;
+	padding-right:0px;
+	text-align:center;
+max-width:800px;}
+
+p {background-color:#FFFFFF;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+display:block;
+max-width:800px;
+margin:auto;
+text-align:justify;}
+
+section {background-color:#FFFFFF;
+		padding: 10px;
+		height: 900px;
+		width:370px;
+		margin:auto;}
+
+
+
+a {font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+  	display: block;
+  	margin:auto;
+	max-width:200px;
+	}
+
+a:link {background-color:white;
+color:black;
+font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+padding:5px;
+}
+
+a:hover {color:white;background-color: #000000;}
+
+
+.row {max-width: 820px;
+	margin: auto;
+	}
+
+.column {float:left;
+		width:50%;
+		
+		}
+
+.row:after {content:"";
+			display:table;
+			clear:both;
+			}
